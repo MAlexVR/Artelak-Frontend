@@ -91,7 +91,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 702px) {
+@media only screen and (max-width: 708px) {
   .top-navbar {
     height: 140px;
     grid-template-columns: repeat(1, 1fr);

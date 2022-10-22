@@ -17,17 +17,17 @@ function BottomNavbar() {
     {
       icon: <FaHome size={25} />,
       name: "Inicio",
-      url: "#",
+      url: "/home",
     },
     {
       icon: <FaUser size={25} />,
       name: "Ingresar",
-      url: "#",
+      url: "/login",
     },
     {
       icon: <FaHeart size={25} />,
       name: "Favoritos",
-      url: "#",
+      url: "/favorites",
     },
     {
       icon: (
@@ -47,11 +47,11 @@ function BottomNavbar() {
         </Badge>
       ),
       name: "Carrito",
-      url: "#"
+      url: "/cart"
     },
     {
       icon: <FaBars size={25} />,
-      name: "Settings",
+      name: "Menú",
       url: "#",
     },
   ];
