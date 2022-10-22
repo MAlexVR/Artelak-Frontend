@@ -65,6 +65,9 @@
   opacity: 0;
   font-size: 0.95em;
   font-weight: 600;
+  background: var(--artelak-ocre);
+  border-radius: 12px;
+  padding: 2px 7px;
 }
 
 .bottom__nav ul.nav__ul li.nav__li.active .nav__name{
