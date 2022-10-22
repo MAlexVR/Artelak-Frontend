@@ -76,7 +76,7 @@
 .nav__indicator{
   position: absolute;
   top: -40px;
-  background: var(--artelak-ocre);
+  background: var(--artelak-blue);
   width: 70px;
   height: 70px;
   border:7px solid var(--artelak-blue);

@@ -8,6 +8,8 @@ import {
   FaBars,
 } from "react-icons/fa";
 
+import { Badge } from "@mui/material";
+
 function BottomNavbar() {
   const [selected, setSelected] = useState(0);
 
@@ -28,7 +30,22 @@ function BottomNavbar() {
       url: "#",
     },
     {
-      icon: <FaShoppingCart size={25} />,
+      icon: (
+        <Badge
+          badgeContent={1}
+          sx={{
+            marginBottom: 2,
+            "& .MuiBadge-badge": {
+              right: -5,
+              color: "white",
+              backgroundColor: "#cc9e6a",
+              border: `0px solid white`,
+            },
+          }}
+        >
+          <FaShoppingCart size={25} />
+        </Badge>
+      ),
       name: "Carrito",
       url: "#"
     },
